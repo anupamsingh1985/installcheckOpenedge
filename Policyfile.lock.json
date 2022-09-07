@@ -1,0 +1,42 @@
+{
+  "revision_id": "9adb5e3173d3ccebcccf715eab79f75d768d2110e2aec5a55a33c15c7cb2387f",
+  "name": "installcheckOpenedge",
+  "run_list": [
+    "recipe[installcheckOpenedge::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "installcheckOpenedge": {
+      "version": "0.1.0",
+      "identifier": "46927d2d344e8bb229009015a630320d14c0389a",
+      "dotted_decimal_identifier": "19864314696715915.50147628248573488.55031764105370",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": null,
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "installcheckOpenedge",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "installcheckOpenedge (0.1.0)": [
+
+      ]
+    }
+  }
+}
