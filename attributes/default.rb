@@ -8,7 +8,7 @@ when 'debian'
   default['Java']['javapath'] = '/usr/lib/jvm/java-11-openjdk-amd64'
   default['java_install_command'] = 'sudo apt-get -y install openjdk-11-jdk'
 when 'rhel'
-  default['Java']['javapath'] = '/usr/lib/jvm/java-11-openjdk-11.0.16.0.8-1.el7_9.x86_64'
+  default['Java']['javapath'] = '/usr/lib/jvm/java-11-openjdk-11.0.16.0.8-1.el8_6.x86_64'
   default['java_install_command'] = 'yum -y install java-11-openjdk java-11-openjdk-devel'
 end
 # URL for the installer
