@@ -1,5 +1,5 @@
 {
-  "revision_id": "9adb5e3173d3ccebcccf715eab79f75d768d2110e2aec5a55a33c15c7cb2387f",
+  "revision_id": "f7660a997125b01dda49b698c233541195b2dded042136a32f9c30ee68497941",
   "name": "installcheckOpenedge",
   "run_list": [
     "recipe[installcheckOpenedge::default]"
@@ -10,11 +10,21 @@
   "cookbook_locks": {
     "installcheckOpenedge": {
       "version": "0.1.0",
-      "identifier": "46927d2d344e8bb229009015a630320d14c0389a",
-      "dotted_decimal_identifier": "19864314696715915.50147628248573488.55031764105370",
+      "identifier": "aabae7a335890df10f66a00ab6264173e654770a",
+      "dotted_decimal_identifier": "48056250079217933.67852402833405478.71966041339658",
       "source": ".",
       "cache_key": null,
-      "scm_info": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": "https://github.com/sc0ttruss/installcheckOpenedge.git",
+        "revision": "ce6a8d089cb8f2bc20e634a55d27d52adf8234c2",
+        "working_tree_clean": false,
+        "published": true,
+        "synchronized_remote_branches": [
+          "origin/HEAD -> origin/main",
+          "origin/main"
+        ]
+      },
       "source_options": {
         "path": "."
       }
