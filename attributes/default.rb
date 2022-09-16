@@ -2,7 +2,7 @@
 # Java Path and JDK installing commnad
 case node['platform_family']
 when 'amazon'
-  default['Java']['javapath'] = '/usr/lib/jvm/java-11-openjdk-11.0.13.0.8-1.amzn2.0.3.x86_64'
+  default['Java']['javapath'] = '/usr/lib/jvm/java-11-openjdk-11.0.16.0.8-1.amzn2.0.1.x86_64'
   default['java_install_command'] = 'amazon-linux-extras install java-openjdk11 -y'
 when 'debian'
   default['Java']['javapath'] = '/usr/lib/jvm/java-11-openjdk-amd64'
@@ -24,3 +24,4 @@ default['Type and Destination']['oem_workpath'] = '/usr/wrk_oemgmt'
 
 #
 default['audit']['compliance_phase'] = true
+default['audit']['reporter'] = 'chef-server-automate', 'cli'
